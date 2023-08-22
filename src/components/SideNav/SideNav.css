@@ -1,0 +1,63 @@
+.sidenav{
+    background: white;
+    height: 100%;
+    padding-top:2.5rem;
+    padding-left:3rem;
+    padding-right:3.8rem;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+   
+}
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+}
+svg{
+    height: 24px;
+    width: 24px;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.Navlinks {
+    color: #84828A;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.games{
+    color: #4E46B5;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.Logout{
+    margin-top: 5rem;
+  width: 100px;
+    align-items: center;
+    bottom: 0;
+    position: relative;
+    display: flex;
+    display: inline-flex;
+padding: 12px 40px;
+align-items: center;
+gap: 10px;
+border-radius: 10px;
+background: linear-gradient(135deg, #C8ECFF 0%, #FFD9DD 35.90%, #FEEFDB 62.70%, #EAE0FE 100%), #FFF;
+}
+

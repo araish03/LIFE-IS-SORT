@@ -1,0 +1,55 @@
+.quizcard{
+
+    height: 12rem ; 
+    width:20rem ;
+    padding-top: 1.2rem;
+    padding-left: 1rem;
+
+
+}
+
+.head{
+    padding-left: 0.4rem;
+    color: var(--theme-dark-default, #16192C);
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 30px; /* 133.333% */
+
+}
+
+
+.time{
+    width: 4.5rem;
+    
+    display: flex;
+padding: 4px 11px 4px 8px;
+justify-content: center;
+align-items: center;
+gap: 3px;
+border-radius: 20px;
+
+color: #000;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 16px; /* 133.333% */
+}
+
+svg{
+    scale: 0.8;
+}
+
+
+.searching{
+    background: #D5E4FA;
+}
+
+.sorting{
+
+    background: #FBD4F5;
+}
+
+

@@ -1,0 +1,72 @@
+.upload{
+    display: flex;
+    gap: 12rem;
+    padding-bottom: 1.5rem;
+}
+
+.pdf{
+    height: 8.5rem;
+    width: 15.5;
+}
+.notes{
+  
+    justify-content: center;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+.notestitle{
+    color: var(--theme-dark-default, #16192C);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.notesdes{
+    color: var(--text-body-light, #425466);
+font-feature-settings: 'salt' on;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.upload-button{
+    flex-direction: row;
+    color: var(--theme-white-default, #FFF);
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 12px; 
+    display: flex;
+width: 130px;
+height: 42px;
+padding: 8px 8px 8px 17px;
+align-items: center;
+gap: 10px;
+    border-radius: 8px;
+background: var(--purple);
+}
+
+
+
+.notesicon{
+    padding-top: 1rem;
+display: flex;
+gap: 9.5rem;
+}
+
+.filetype svg{
+    width: 36px;
+    height: 32px;
+}
+
+.notesdownload svg{
+    width: 32px;
+    height: 32px;
+}
