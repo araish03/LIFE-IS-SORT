@@ -14,7 +14,9 @@ import About from './components/About/About';
 import Certification from './components/Certification/Certification';
 import Dashboard from './components/Dashboard/Dashboard';
 import Notes from './components/Notes/Notes';
-import Sanjal from './components/Sanjal/Sanjal';
+import BubbleSort from './components/Games/Bubble Sort/BubbleSort';
+import BubbleSort2 from './components/Games/Bubble Sort/BubbleSort2';
+
 
 const router =createBrowserRouter(
   [
@@ -51,8 +53,16 @@ const router =createBrowserRouter(
     {
       path: "notes",
       element: <Notes/>,
-    }
+    },
 
+    {
+      path: "bubble-sort",
+      element: <BubbleSort/>,
+    },
+    {
+      path: "bubble-sort-playarea",
+      element: <BubbleSort2/>,
+    }
 
 
   

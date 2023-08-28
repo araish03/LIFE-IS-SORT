@@ -1,0 +1,22 @@
+.board-container {
+    z-index: 15;
+    margin: 40px auto;
+    width: 20rem;
+    height: 50rem;
+    align-items: center;
+    padding-top: 20rem;
+ 
+    
+}
+.board-row{
+    flex-direction: row;
+
+    gap: 5rem;
+}
+
+.inboard{
+    display: flex;
+    justify-content: space-around;
+    gap: 4rem;
+
+}

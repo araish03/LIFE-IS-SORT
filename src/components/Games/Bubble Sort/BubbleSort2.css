@@ -1,0 +1,192 @@
+.BUBBLE-SORT{
+    background-color:#569AFF ;
+    height: 100vh;
+    
+  
+overflow: hidden;
+
+
+}
+
+.main-b{
+    height: 100%;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    
+}
+
+
+.main-b img{
+    padding-bottom: 2rem;
+    height: 20rem;
+    width: 35rem;
+    
+   
+}
+.title{
+    z-index: 10;
+}
+
+.main-b button{
+    align-items: center;
+    display: grid;
+    justify-content: center;
+    width: 25rem;
+    height: 4rem;
+    border-radius: 0;
+    font-size: 1.5rem;
+    background-color: #004AAD;
+    cursor: pointer;
+    z-index: 12;
+
+
+
+}
+
+.center-content{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    z-index: 12;
+}
+
+
+
+.aquatic{
+    scale: 0.5;
+    position:absolute;
+}
+
+.octo{
+    left: -10rem;
+    height: 50rem!important;
+    width: 50rem!important;
+    top: -7rem;
+    z-index: 10;
+
+
+}
+.shark{
+    right: -7rem;
+    height: 40rem!important;
+    width: 40rem!important;
+    top: -7rem;
+    z-index: 10;
+
+}
+
+.blue{
+    top: -1rem;
+    width: 10rem!important;
+    height: 10rem!important;
+
+}
+.yellow2{
+    top: -1rem;
+right: 0rem;
+    width: 30rem!important;
+    height: 30rem!important;
+    z-index: 12;
+
+}
+
+.bluecoral{
+    top: 25rem;
+    left: -10rem;
+    display: flex;
+    z-index: 10;
+    height: 30rem!important;
+}
+
+.yellowcoral{
+    top: 30rem;
+    left: 5rem;
+    display: flex;
+    z-index: 10;
+    height: 26rem!important;
+}
+
+.bottom{
+
+    width: 200rem!important;
+    height: 65rem!important;
+}
+
+.bubblea{
+    left: 15rem;
+    height: 15rem!important;
+    width: 15rem!important;
+    top: -1rem;
+
+}
+
+.bubbleb{
+    right: 5rem;
+    height: 40rem!important;
+    width: 40rem!important;
+    top: -12rem;
+  
+
+
+}
+
+.down{
+    left: 8rem;
+    top: 26rem;
+    height: 15rem!important;
+    width: 15rem!important;
+    rotate: 90deg;
+}
+
+.rightcoral{
+    top: 25rem;
+    right: -8rem;
+    display: flex;
+    z-index: 10;
+    height: 30rem!important;
+}
+
+.numbers {
+    margin-top: 2rem;
+    display: flex;
+    width: 100%;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+
+    
+    
+}
+
+.numbers .num{
+    width: 12rem;
+    height: 12rem;
+
+
+}
+
+.num1{
+    top: 5rem;
+    left: -6rem;
+    z-index: 12;
+}
+
+.num2{
+
+    left: -3rem;
+}
+
+.num3{
+    top: 6rem;
+ 
+}
+
+.num5{
+    top: 7rem;
+    right: -3rem;
+ 
+}

@@ -1,0 +1,29 @@
+/* .bubble {
+  width: 5rem;
+    height: 5rem;
+   
+
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  } */
+  
+.bubbleg:hover {
+    transform: scale(1.1);
+  }
+
+  .bubbleg{
+    font-size: 5rem;
+    font-weight: bolder;
+    color: #5CE1E6;
+    border-radius: 100%;
+    align-items: center;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.00) 0%, rgba(255, 255, 255, 0.08) 34.62%, rgba(255, 255, 255, 0.00) 62.66%, #FFF 100%);
+ 
+  }

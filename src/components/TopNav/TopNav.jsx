@@ -1,9 +1,18 @@
 import React from 'react'
 import './TopNav.css'
+import Bucket from '../../assets/Bucketsort.png'
+import Shell from '../../assets/Shellsort.png'
+import Binary from '../../assets/Binarysearch.png'
+import Heap from '../../assets/Heapsort.png'
+import Quick from '../../assets/Quicksort.png'
+
+
+
+
 import Bubble from '../../assets/bubble.png'
 import Selection from '../../assets/selection.png'
 import Merge from '../../assets/merge.png'
-
+import {Link} from "react-router-dom";
 import Profile from '../../assets/profile.png'
 const TopNav = () => {
   return (
@@ -46,7 +55,7 @@ const TopNav = () => {
 <img src={Bubble} alt="" />
 <div className="heading">Bubble Sort</div>
 <div className="sub-heading">sort by iteratively placing elements in the correct position one at a time.</div>
-<button>Play</button>
+<button><Link style={{textDecoration: 'none' , color:'white'  }} to="/bubble-sort">Play</Link>  </button>
 </div>
 
 <div className="selection card">
@@ -62,33 +71,33 @@ const TopNav = () => {
 <button>Play</button>
 </div>
 <div className="bubble card">
-<img src={Bubble} alt="" />
+<img src={Bucket} alt="" />
 <div className="heading">Bubble Sort</div>
 <div className="sub-heading">sort by iteratively placing elements in the correct position one at a time.</div>
 <button>Play</button>
 </div>
 
 <div className="bubble card">
-<img src={Bubble} alt="" />
+<img src={Shell} alt="" />
 <div className="heading">Bubble Sort</div>
 <div className="sub-heading">sort by iteratively placing elements in the correct position one at a time.</div>
 <button>Play</button>
 </div>
 
 <div className="selection card">
-<img src={Selection} alt="" />
+<img src={Quick} alt="" />
 <div className="heading">Selection Sort</div>
 <div className="sub-heading">sort by iteratively placing elements in the correct position one at a time.</div>
 <button>Play</button>
 </div>
 <div className="merge card">
-<img src={Merge} alt="" />
+<img src={Binary} alt="" />
 <div className="heading">Merge Sort</div>
 <div className="sub-heading">sort by iteratively placing elements in the correct position one at a time.</div>
 <button>Play</button>
 </div>
 <div className="bubble card">
-<img src={Bubble} alt="" />
+<img src={Heap} alt="" />
 <div className="heading">Bubble Sort</div>
 <div className="sub-heading">sort by iteratively placing elements in the correct position one at a time.</div>
 <button>Play</button>
