@@ -9,7 +9,7 @@ export default function Board() {
   ])
   const [prevClickedIndex, setPrevClickedIndex] = useState(null);
   const handleBubbleClick = (clickedIndex) => {
-    if(prevClickedIndex!==clickedIndex &&
+    if((prevClickedIndex-1)!==clickedIndex &&
       clickedIndex<(bubbles.length)-1 && 
       bubbles[clickedIndex].number > bubbles[clickedIndex + 1].number)
     {
