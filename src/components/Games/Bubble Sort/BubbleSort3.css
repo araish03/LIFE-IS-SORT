@@ -1,0 +1,30 @@
+.main-b1 img {
+    padding-bottom: 2rem;
+    height: 20rem;
+    width: 110rem!important ;
+    z-index: 0;
+    position: absolute;
+}
+.main-b1 img {
+    padding-bottom: 2rem;
+    height: 45rem;
+    width: 35rem;
+}
+.title1 {
+    z-index: 10;}
+    .main-b1 button {
+        align-items: center;
+        display: grid;
+        justify-content: center;
+        width: 25rem;
+        height: 4rem;
+        border-radius: 0;
+        font-size: 1.5rem;
+        background-color: #004AAD;
+        cursor: pointer;
+        z-index: 12;
+        position: absolute;
+        bottom: 4rem;
+        left: 650px;
+        
+    }

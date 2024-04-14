@@ -22,7 +22,7 @@ overflow: hidden;
 
 .main-b img{
     padding-bottom: 2rem;
-    height: 20rem;
+    height: 45rem;
     width: 35rem;
     
    
@@ -42,6 +42,7 @@ overflow: hidden;
     background-color: #004AAD;
     cursor: pointer;
     z-index: 12;
+
 
 
 

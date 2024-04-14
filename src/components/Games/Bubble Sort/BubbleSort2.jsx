@@ -15,11 +15,7 @@ import YellowCoral from '../../../assets/yellow coral.png'
 import BubbleA from '../../../assets/bubbleA.png'
 import BubbleB from '../../../assets/bubbleB.png'
 import BigBottom from '../../../assets/Bigbottom.png'
-import Num1 from '../../../assets/Num1.png'
-import Num2 from '../../../assets/Num2.png'
-import Num3 from '../../../assets/Num3.png'
-import Num4 from '../../../assets/Num4.png'
-import Num5 from '../../../assets/Num5.png'
+
 import Board from '../../Board.jsx'
 const BubbleSort2 = () => {
   return (
@@ -36,7 +32,7 @@ const BubbleSort2 = () => {
  <img src={BlueCoral} className='aquatic bluecoral ' alt="" />
  <img src={BlueCoral} className='aquatic rightcoral ' alt="" />
  <img src={YellowCoral} className='aquatic yellowcoral' alt="" />
- <img src={BigBottom} className=' aquatic bottom' alt="" />
+ 
 <img src={BubbleA} alt="" className='aquatic bubblea' />
 <img src={BubbleA} alt="" className='aquatic  down' />
 <img src={BubbleB} alt="" className='aquatic bubbleb' />

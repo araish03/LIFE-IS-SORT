@@ -1,15 +1,15 @@
 import React from 'react'
 import './Bubble.css'
-import Num1 from '../assets/Num1.png'
+import './Arrow.jsx'
+import Arrow from './Arrow.jsx'
 const Bubble=({number,onClick})=> {
   return (
     <div 
-    className='bubbleg' 
+    className='bubble' 
     onClick={onClick}>
       {number}
+      
     </div>
   )
 }
 export default Bubble;
-
-// style={{backgroundImage: `url(${Num1})` , width: '5rem', height:'5rem' }}

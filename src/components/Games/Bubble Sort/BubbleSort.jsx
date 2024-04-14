@@ -21,7 +21,7 @@ const BubbleSort = () => {
     
 <div className="center-content">
       <img className='title' src={Bubblesort} alt="" />
-      <Link style={{textDecoration: 'none' , color:'white' }} to="/bubble-sort-playarea" > <button>Learn and Play</button></Link>
+      <Link style={{textDecoration: 'none' , color:'white' }} to="/bubble-sort-instructions" > <button>Learn and Play</button></Link>
       </div>
     
 
@@ -32,7 +32,7 @@ const BubbleSort = () => {
  <img src={BlueCoral} className='aquatic bluecoral ' alt="" />
  <img src={BlueCoral} className='aquatic rightcoral ' alt="" />
  <img src={YellowCoral} className='aquatic yellowcoral' alt="" />
- <img src={Bottom} className=' aquatic bottom' alt="" />
+ 
 <img src={BubbleA} alt="" className='aquatic bubblea' />
 <img src={BubbleA} alt="" className='aquatic  down' />
 <img src={BubbleB} alt="" className='aquatic bubbleb' />

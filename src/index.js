@@ -16,6 +16,7 @@ import Dashboard from './components/Dashboard/Dashboard';
 import Notes from './components/Notes/Notes';
 import BubbleSort from './components/Games/Bubble Sort/BubbleSort';
 import BubbleSort2 from './components/Games/Bubble Sort/BubbleSort2';
+import BubbleSort3 from './components/Games/Bubble Sort/BubbleSort3';
 
 
 const router =createBrowserRouter(
@@ -62,6 +63,10 @@ const router =createBrowserRouter(
     {
       path: "bubble-sort-playarea",
       element: <BubbleSort2/>,
+    },
+    {
+      path:"bubble-sort-instructions",
+      element:<BubbleSort3/>,
     }
 
 
